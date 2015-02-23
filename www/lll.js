@@ -5,10 +5,10 @@
 
 var logJavaPlugin = {
     logUsingJava: function(title) {
-        alert("inside plugin");
+        //alert("inside plugin");
 
        
-/* cordova.exec(
+        cordova.exec(
             function(params){
                 alert("SUCCESS: " + params);
             }, // success callback function
@@ -20,7 +20,7 @@ var logJavaPlugin = {
             [{                  // and this array of custom arguments to create our entry
                 "title": title
             }]
-        );*/
+        );
 
     }
 }
