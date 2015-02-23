@@ -1,13 +1,13 @@
 /**
  * Created by antonioromano on 23/02/15.
- *//*
+ */
 
 
 var logJavaPlugin = {
     logUsingJava: function(title) {
         alert("inside plugin");
 
-       */
+       
 /* cordova.exec(
             function(params){
                 alert("SUCCESS: " + params);
@@ -20,15 +20,7 @@ var logJavaPlugin = {
             [{                  // and this array of custom arguments to create our entry
                 "title": title
             }]
-        );*//*
+        );*/
 
     }
-}*/
-
-module.exports = {
-
-    test: function(){
-        alert("inside plugin");
-    }
-
 }
