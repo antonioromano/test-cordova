@@ -10,7 +10,11 @@ var logJavaPlugin = {
        
         cordova.exec(
             function(params){
-                alert("SUCCESS: " + params);
+                var s = "";
+                for (p in params){
+                    s += p  + ": " + params[p] + " --- ";
+                }
+                alert("SUCCESS: " + s);
             }, // success callback function
             function(params){
                 alert("ERROR: " + params);
