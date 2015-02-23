@@ -16,7 +16,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/Lll.java" />
+        <source-file src="src/android/Lll.java" target-dir="src/com/romano/antonio"/>
     </platform>
 
 </plugin>
