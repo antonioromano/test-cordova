@@ -5,7 +5,7 @@
     <description>Test Plugin</description>
 
     <js-module src="www/lll.js" name="lll">
-        <clobbers target="lll" />
+        <clobbers target="window.lll" />
     </js-module>
 
     <platform name="android">
