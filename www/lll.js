@@ -24,4 +24,5 @@ var logJavaPlugin = {
 
     }
 }
-//module.exports = logJavaPlugin;
+
+module.exports = logJavaPlugin;
