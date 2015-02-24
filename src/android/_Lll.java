@@ -9,9 +9,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Lll  extends CordovaPlugin{
+public class _Lll  extends CordovaPlugin{
 
-    public Lll(){
+    public _Lll(){
     }
 
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
@@ -24,7 +24,7 @@ public class Lll  extends CordovaPlugin{
             Log.d("LogTest", "logging testing");
             try{
                 JSONObject r = new JSONObject();
-                r.put("result(from jar) ", "risultato!!!");
+                r.put("result(from jar) ", "risultato (from jar)!!!");
                 callbackContext.success(r);
             }catch(Exception e){
                 callbackContext.error("Errore try-catch from jar");
