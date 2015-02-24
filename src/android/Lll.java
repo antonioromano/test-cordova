@@ -24,15 +24,15 @@ public class Lll  extends CordovaPlugin{
             Log.d("LogTest", "logging testing");
             try{
                 JSONObject r = new JSONObject();
-                r.put("resilt", "risultato!!!");
+                r.put("result(from jar) ", "risultato!!!");
                 callbackContext.success(r);
             }catch(Exception e){
-                callbackContext.error("Errore try-catch");
+                callbackContext.error("Errore try-catch from jar");
                 return false;
             }
         }
         else {
-            callbackContext.error("Errore if-else");
+            callbackContext.error("Errore if-else from jar");
             return false;
         }
         return true;
